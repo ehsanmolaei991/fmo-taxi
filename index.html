@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="We are available for you 7 days a week around the clock! Always safe, friendly and reliable to your destination."
+    />
+    <meta
+      name="keywords"
+      content="FMO, Taxi, Airport, transfer, Münster, Teamopia, fmotaxi"
+    />
+    <meta name="author" content="Ehsanmolaei991" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/favicon/site.webmanifest" />
+
+    <title>FMO Taxi</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="./css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/@fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Boog effect -->
+    <audio id="boogh">
+      <source src="./sounds/boogh.mp3" type="audio/mpeg" />
+      Your browser does not support the audio tag.
+    </audio>
+
+    <audio id="taxi-1">
+      <source src="./sounds/taxi-1.mp3" type="audio/mpeg" />
+      Your browser does not support the audio tag.
+    </audio>
+
+    <audio id="taxi-2">
+      <source src="./sounds/taxi-2.mp3" type="audio/mpeg" />
+      Your browser does not support the audio tag.
+    </audio>
+
+    <audio id="taxi-3">
+      <source src="./sounds/taxi-3.mp3" type="audio/mpeg" />
+      Your browser does not support the audio tag.
+    </audio>
+    <!-- Preloader -->
+    <div class="tp-Preloader">
+      <div>
+        <img src="./images/preloader/preloader-01.png" alt="preloader" />
+      </div>
+      <div>
+        <img src="./images/preloader/preloader-02.png" alt="preloader" />
+      </div>
+    </div>
+    <div class="loader"></div>
+    <p class="display-5 BSand animate__animated animate__flash TapToGo">
+      Tap Here
+    </p>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <button class="d-flex d-md-none menu-btn">
+          <i class="fas fa-ellipsis-h fs-1"></i>
+          <i class="fas fa-ellipsis-h fs-1"></i>
+        </button>
+        <a href="#" class="d-flex d-md-none call-taxi-btn">
+          <i class="fas fa-phone-alt fs-3"></i>
+        </a>
+        <nav class="d-none d-md-flex">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-taxi"></i> Take Fast</a>
+            </li>
+          </ul>
+        </nav>
+        <img
+          src="./images/logo/logo.png"
+          alt="logo"
+          width="60px"
+          height="60px"
+          id="logo"
+        />
+      </div>
+      <div class="small-view-menu animate__animated">
+        <ul>
+          <li class="display-3 BSand">
+            <a href="#">Home</a>
+          </li>
+          <li class="display-3 BSand mt-3">
+            <a href="#">Services</a>
+          </li>
+          <li class="display-3 BSand mt-3">
+            <a href="#">About</a>
+          </li>
+          <li class="display-3 BSand mt-3">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+        <hr />
+        <a href="#" class="LSand"
+          ><img src="./images/teamopia-2.svg" width="60" alt="teamopia"
+        /></a>
+      </div>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- about -->
+      <section class="about">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-7 col-md-6 col-sm-12 d-flex justify-content-center flex-column px-5"
+            >
+              <h1 class="display-4 title-hero">FMO Taxi</h1>
+              <p class="fs-4">
+                We are available for you 7 days a week around the clock! Always
+                safe, friendly and reliable to your destination.
+              </p>
+            </div>
+            <div
+              class="col-lg-5 col-md-6 col-sm-12 py-md-5 my-md-5 pb-5 d-flex justify-content-center"
+            >
+              <img
+                src="./images/taxi-card.svg"
+                class="img-fluid"
+                alt="texi-card"
+              />
+            </div>
+          </div>
+        </div>
+        <i class="fas fa-arrow-down arrow-icon"></i>
+      </section>
+
+      <!-- services -->
+      <section class="services">
+        <div class="container">
+          <h1 class="display-4 text-center">Our Services</h1>
+
+          <div class="d-flex justify-content-center">
+            <img src="./images/squares-3.png" height="30" alt="sprator" />
+          </div>
+
+          <div class="row">
+            <!-- item -->
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+              <div class="services-item">
+                <i class="fas fa-plane-departure"></i>
+                <h6 class="fs-3 text-center">Airport transfer</h6>
+                <p class="fs-6" style="text-align: justify">
+                  Get to the airport safely and on time. We take care of it. We
+                  will be happy to pick you up with a name badge on your
+                  arrival.
+                </p>
+                <img src="./images/squares-3.png" height="30" alt="sprator" />
+              </div>
+            </div>
+            <!-- item -->
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+              <div class="services-item">
+                <i class="fas fa-shuttle-van"></i>
+                <h6 class="fs-3 text-center">Large capacity taxi</h6>
+                <p class="fs-6" style="text-align: justify">
+                  We also offer trips in our large-capacity taxi for up to 8
+                  people.
+                </p>
+                <img src="./images/squares-3.png" height="30" alt="sprator" />
+              </div>
+            </div>
+            <!-- item -->
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+              <div class="services-item">
+                <i class="fas fa-wheelchair"></i>
+                <h6 class="fs-3 text-center">Large capacity taxi</h6>
+                <p class="fs-6" style="text-align: justify">
+                  We also offer trips in our large-capacity taxi for up to 8
+                  people.
+                </p>
+                <img src="./images/squares-3.png" height="30" alt="sprator" />
+              </div>
+            </div>
+            <!-- item -->
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+              <div class="services-item">
+                <i class="fas fa-box-open"></i>
+                <h6 class="fs-3 text-center">Large capacity taxi</h6>
+                <p class="fs-6" style="text-align: justify">
+                  We also offer trips in our large-capacity taxi for up to 8
+                  people.
+                </p>
+                <img src="./images/squares-3.png" height="30" alt="sprator" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- parallax -->
+      <section class="parallax">
+        <h6 class="fs-5 BSand text-center">
+          Sie möchten stressfrei am Ankunftsterminal via Namensschild begrüßt
+          werden und vom Flieger ganz bequem in ein modernes, komfortables Auto
+          steigen, welches Sie zum nächsten Geschäftstermin bringt oder aus dem
+          wohlverdienten Urlaub abholt
+        </h6>
+      </section>
+
+      <!-- tariffs -->
+      <section class="tariffs">
+        <div class="container">
+          <h1 class="display-4 text-center">Our Tariffs</h1>
+
+          <div class="d-flex justify-content-center mb-5">
+            <img src="./images/squares-3.png" height="30" alt="sprator" />
+          </div>
+
+          <ul class="row">
+            <!-- item -->
+            <li class="col-12 list-tariff">
+              <h5 class="BSand">
+                Münster Nord
+                <span class="LSand">
+                  <i class="fas fa-chevron-right"></i> FMO Airport
+                </span>
+              </h5>
+              <div>
+                <div>
+                  <p class="Sand">
+                    Kinderhaus, Nienberge, Sprakel, Coerde, Handorf, Nevinghof
+                  </p>
+                </div>
+                <div
+                  class="d-flex flex-column flex-sm-row justify-content-between w-50"
+                >
+                  <small class="BSand"
+                    >45,00 EUR<br /><span class="Sand">1-4 Person</span></small
+                  >
+                  <small class="BSand"
+                    >51,00 EUR<br /><span class="Sand"
+                      >5 -8 Person (large room)</span
+                    ></small
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- item -->
+            <li class="col-12 list-tariff">
+              <h5 class="BSand">
+                Münster Süd
+                <span class="LSand">
+                  <i class="fas fa-chevron-right"></i> FMO Airport
+                </span>
+              </h5>
+              <div>
+                <div>
+                  <p class="Sand">Hiltrup, Angelmodde,Wolbeck, Amelsbüren</p>
+                </div>
+                <div
+                  class="d-flex flex-column flex-sm-row justify-content-between w-50"
+                >
+                  <small class="BSand"
+                    >62,00 EUR<br /><span class="Sand">1-4 Person</span></small
+                  >
+                  <small class="BSand"
+                    >68,00 EUR<br /><span class="Sand"
+                      >5 -8 Person (large room)</span
+                    ></small
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- item -->
+            <li class="col-12 list-tariff">
+              <h5 class="BSand">
+                Münster West
+                <span class="LSand">
+                  <i class="fas fa-chevron-right"></i> FMO Airport
+                </span>
+              </h5>
+              <div>
+                <div>
+                  <p class="Sand">Roxel, Albachten, Mecklenbeck, Aaseestadt</p>
+                </div>
+                <div
+                  class="d-flex flex-column flex-sm-row justify-content-between w-50"
+                >
+                  <small class="BSand"
+                    >60,00 EUR<br /><span class="Sand">1-4 Person</span></small
+                  >
+                  <small class="BSand"
+                    >68,00 EUR<br /><span class="Sand"
+                      >5 -8 Person (large room)</span
+                    ></small
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- item -->
+            <li class="col-12 list-tariff">
+              <h5 class="BSand">
+                Münster Ost
+                <span class="LSand">
+                  <i class="fas fa-chevron-right"></i> FMO Airport
+                </span>
+              </h5>
+              <div>
+                <div>
+                  <p class="Sand">Mauritz, Gremmendorf, Werse</p>
+                </div>
+                <div
+                  class="d-flex flex-column flex-sm-row justify-content-between w-50"
+                >
+                  <small class="BSand"
+                    >58,00 EUR<br /><span class="Sand">1-4 Person</span></small
+                  >
+                  <small class="BSand"
+                    >64,00 EUR<br /><span class="Sand"
+                      >5 -8 Person (large room)</span
+                    ></small
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- item -->
+            <li class="col-12 list-tariff">
+              <h5 class="BSand">
+                Münster Mitte
+                <span class="LSand">
+                  <i class="fas fa-chevron-right"></i> FMO Airport
+                </span>
+              </h5>
+              <div>
+                <div>
+                  <p class="Sand">Innerhalb des Zentrum, Gievenbeck</p>
+                </div>
+                <div
+                  class="d-flex flex-column flex-sm-row justify-content-between w-50"
+                >
+                  <small class="BSand"
+                    >58,00 EUR<br /><span class="Sand">1-4 Person</span></small
+                  >
+                  <small class="BSand"
+                    >64,00 EUR<br /><span class="Sand"
+                      >5 -8 Person (large room)</span
+                    ></small
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- item -->
+            <li class="col-12 list-tariff">
+              <div>
+                <div>
+                  <p class="Sand">KM-Preis außerhalb von MS</p>
+                </div>
+                <div
+                  class="d-flex flex-column flex-sm-row justify-content-between w-50"
+                >
+                  <small class="BSand"
+                    >2,00 EUR<br /><span class="Sand">1-4 Person</span></small
+                  >
+                  <small class="BSand"
+                    >2,00 EUR<br /><span class="Sand"
+                      >5 -8 Person (large room)</span
+                    ></small
+                  >
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <div class="Sprator"></div>
+
+          <ul class="row">
+            <!-- item -->
+            <li class="col-12 list-tariff">
+              <div>
+                <h5 class="LSand">
+                  Münster
+                  <span class="BSand">
+                    <i class="fas fa-chevron-right"></i> Amsterdam Shiphol
+                  </span>
+                </h5>
+                <div
+                  class="d-flex flex-column flex-sm-row justify-content-between w-50"
+                >
+                  <small class="BSand"
+                    >420,00 EUR<br /><span class="Sand">1-4 Person</span></small
+                  >
+                  <small class="BSand"
+                    >480,00 EUR<br /><span class="Sand"
+                      >5 -8 Person (large room)</span
+                    ></small
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- item -->
+            <li class="col-12 list-tariff">
+              <div>
+                <h5 class="LSand">
+                  Münster
+                  <span class="BSand">
+                    <i class="fas fa-chevron-right"></i> Bremen Airport
+                  </span>
+                </h5>
+                <div
+                  class="d-flex flex-column flex-sm-row justify-content-between w-50"
+                >
+                  <small class="BSand"
+                    >305,00 EUR<br /><span class="Sand">1-4 Person</span></small
+                  >
+                  <small class="BSand"
+                    >350,00 EUR<br /><span class="Sand"
+                      >5 -8 Person (large room)</span
+                    ></small
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- item -->
+            <li class="col-12 list-tariff">
+              <div>
+                <h5 class="LSand">
+                  Münster
+                  <span class="BSand">
+                    <i class="fas fa-chevron-right"></i> Dortmund Airport
+                  </span>
+                </h5>
+                <div
+                  class="d-flex flex-column flex-sm-row justify-content-between w-50"
+                >
+                  <small class="BSand"
+                    >110,00 EUR<br /><span class="Sand">1-4 Person</span></small
+                  >
+                  <small class="BSand"
+                    >125,00 EUR<br /><span class="Sand"
+                      >5 -8 Person (large room)</span
+                    ></small
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- item -->
+            <li class="col-12 list-tariff">
+              <div>
+                <h5 class="LSand">
+                  Münster
+                  <span class="BSand">
+                    <i class="fas fa-chevron-right"></i> Düsseldorf Airport
+                  </span>
+                </h5>
+                <div
+                  class="d-flex flex-column flex-sm-row justify-content-between w-50"
+                >
+                  <small class="BSand"
+                    >220,00 EUR<br /><span class="Sand">1-4 Person</span></small
+                  >
+                  <small class="BSand"
+                    >240,00 EUR<br /><span class="Sand"
+                      >5 -8 Person (large room)</span
+                    ></small
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- item -->
+            <li class="col-12 list-tariff">
+              <div>
+                <h5 class="LSand">
+                  Münster
+                  <span class="BSand">
+                    <i class="fas fa-chevron-right"></i> Frankfurt Airport
+                  </span>
+                </h5>
+                <div
+                  class="d-flex flex-column flex-sm-row justify-content-between w-50"
+                >
+                  <small class="BSand"
+                    >480,00 EUR<br /><span class="Sand">1-4 Person</span></small
+                  >
+                  <small class="BSand"
+                    >535,00 EUR<br /><span class="Sand"
+                      >5 -8 Person (large room)</span
+                    ></small
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- item -->
+            <li class="col-12 list-tariff">
+              <div>
+                <h5 class="LSand">
+                  Münster
+                  <span class="BSand">
+                    <i class="fas fa-chevron-right"></i> Hamburg Airport
+                  </span>
+                </h5>
+                <div
+                  class="d-flex flex-column flex-sm-row justify-content-between w-50"
+                >
+                  <small class="BSand"
+                    >480,00 EUR<br /><span class="Sand">1-4 Person</span></small
+                  >
+                  <small class="BSand"
+                    >510,00 EUR<br /><span class="Sand"
+                      >5 -8 Person (large room)</span
+                    ></small
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- item -->
+            <li class="col-12 list-tariff">
+              <div>
+                <h5 class="LSand">
+                  Münster
+                  <span class="BSand">
+                    <i class="fas fa-chevron-right"></i> Köln/Bonn Airport
+                  </span>
+                </h5>
+                <div
+                  class="d-flex flex-column flex-sm-row justify-content-between w-50"
+                >
+                  <small class="BSand"
+                    >290,00 EUR<br /><span class="Sand">1-4 Person</span></small
+                  >
+                  <small class="BSand"
+                    >330,00 EUR<br /><span class="Sand"
+                      >5 -8 Person (large room)</span
+                    ></small
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- item -->
+            <li class="col-12 list-tariff">
+              <div>
+                <h5 class="LSand">
+                  Münster
+                  <span class="BSand">
+                    <i class="fas fa-chevron-right"></i> Paderborn Airport
+                  </span>
+                </h5>
+                <div
+                  class="d-flex flex-column flex-sm-row justify-content-between w-50"
+                >
+                  <small class="BSand"
+                    >180,00 EUR<br /><span class="Sand">1-4 Person</span></small
+                  >
+                  <small class="BSand"
+                    >210,00 EUR<br /><span class="Sand"
+                      >5 -8 Person (large room)</span
+                    ></small
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- item -->
+            <li class="col-12 list-tariff">
+              <div>
+                <h5 class="LSand">
+                  Münster
+                  <span class="BSand">
+                    <i class="fas fa-chevron-right"></i> Weeze Airport
+                  </span>
+                </h5>
+                <div
+                  class="d-flex flex-column flex-sm-row justify-content-between w-50"
+                >
+                  <small class="BSand"
+                    >280,00 EUR<br /><span class="Sand">1-4 Person</span></small
+                  >
+                  <small class="BSand"
+                    >310,00 EUR<br /><span class="Sand"
+                      >5 -8 Person (large room)</span
+                    ></small
+                  >
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="contact">
+        <div class="container">
+          <h1 class="display-4 text-center">Contact</h1>
+
+          <div class="d-flex justify-content-center">
+            <img src="./images/squares-3.png" height="30" alt="sprator" />
+          </div>
+
+          <div class="row py-4">
+            <div
+              class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-evenly flex-column"
+              style="flex-wrap: wrap"
+            >
+              <a class="d-flex flex-column align-items-center mt-5" href="#">
+                <i class="fas fa-envelope"></i>
+                <small class="BSand mt-2">info@fmotaxi.de</small>
+              </a>
+              <a class="d-flex flex-column align-items-center my-5" href="#">
+                <i class="fas fa-mobile"></i>
+                <small class="BSand mt-2">0176-10426768</small>
+              </a>
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-12">
+              <form class="contact-form">
+                <input placeholder="Name" type="text" />
+                <input placeholder="Email" type="email" />
+                <input placeholder="Phone" type="tel" />
+                <textarea
+                  style="min-height: 250px"
+                  placeholder="Description"
+                ></textarea>
+                <button type="submit" class="primary-btn">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container flex-column flex-sm-row">
+        <p class="mt-4 mt-sm-2">Copyright © FMO Taxi 2021</p>
+        <small class="mt-4 mt-sm-2"
+          >Powerd by <a href="#" class="BSand">Teamopia</a></small
+        >
+        <ul class="d-flex mt-4 mt-sm-2">
+          <li style="margin-left: 15px">
+            <a href="#">Impressum</a>
+          </li>
+          <li style="margin-left: 15px">
+            <a href="#">Datenschutz</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
